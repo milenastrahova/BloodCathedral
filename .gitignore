@@ -1,0 +1,39 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+
+# Visual Studio / IDE generated files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.code-workspace
+
+# Unreal generated project files
+*.xcodeproj
+*.xcworkspace
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Build/cook/package output
+Build/Receipts/
+StagedBuilds/
+Packaged/
+Packaging/
+
+# Local backups
+Backup/
+Backups/
+*_Backup/
