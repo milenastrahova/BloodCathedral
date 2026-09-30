@@ -4,6 +4,21 @@
 
 The project is being developed as a complete playable portfolio piece: a compact cathedral/crypt level where exploration, stealth, distraction abilities, enemy awareness and progression are designed to work as one coherent player experience.
 
+## Quick Review
+
+**Role:** Solo game designer / developer  
+**Engine:** Unreal Engine 5.8  
+**Primary focus:** Stealth readability, enemy-state design, player mobility, progression and level flow  
+**Current state:** Playable prototype baseline  
+**Best recruiter entry point:** [Game Design Breakdown](GAME_DESIGN.md)
+
+### Portfolio navigation
+
+- [Ashen Keep](https://github.com/milenastrahova/AshenKeep) — complete gameplay vertical slice
+- **Blood Cathedral** — stealth/action design prototype
+- [CyberCorp HQ](https://github.com/milenastrahova/CyberCorp-HQ-Technical-Art) — interaction, objective flow and technical art
+- [ArtStation](https://www.artstation.com/milenastrahova) — visual portfolio
+
 ## Game Design Breakdown
 
 A focused breakdown of the stealth loop, player choices, design questions and iteration plan is available in [GAME_DESIGN.md](GAME_DESIGN.md).
