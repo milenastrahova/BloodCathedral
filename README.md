@@ -1,8 +1,16 @@
 # Blood Cathedral
 
-**Blood Cathedral** is a small third-person gothic stealth/action game prototype built in **Unreal Engine 5.8** with gameplay systems implemented primarily in **C++**.
+**Blood Cathedral** is a third-person gothic stealth/action game prototype built in **Unreal Engine 5.8**, centered on stealth readability, player choice, enemy awareness, progression and compact level flow.
 
-The project is being developed as a complete playable portfolio piece: a compact cathedral/crypt level, exploration, interaction, stealth, combat, progression, save/checkpoints, UI, custom 3D assets and a polished packaged build.
+The project is being developed as a complete playable portfolio piece: a compact cathedral/crypt level where exploration, stealth, distraction abilities, enemy awareness and progression are designed to work as one coherent player experience.
+
+## Game Design Goals
+
+- Make enemy awareness easy to read through line-of-sight and detection feedback
+- Give the player more than one solution through crouch, sprint, Blood Dash and Blood Lure
+- Build a compact level loop around exploration, keys, locked spaces, checkpoints and objectives
+- Create tension through Patrol → Investigate → Chase → Search → Return AI states
+- Keep progression understandable through HUD feedback and clear objective updates
 
 ## Current milestone — v0.5 Prototype Baseline
 
@@ -37,6 +45,18 @@ Implemented systems:
 | Blood Lure | Q |
 | Blood Dash | Left Ctrl |
 | Restore checkpoint | F9 |
+
+## Player Experience & Iteration
+
+The prototype is structured around a simple decision loop: **observe → distract or evade → move through danger → unlock progress → recover at checkpoints**. The current milestone is used to test whether stealth states, detection feedback and traversal abilities are understandable before adding the full combat and art pass.
+
+Current iteration priorities:
+
+- tune detection speed and search duration;
+- test whether Blood Lure creates meaningful alternate routes;
+- balance sprint/Blood Dash so mobility helps without removing tension;
+- refine objective and stealth feedback based on playtesting;
+- complete the first playable level before expanding content.
 
 ## Project architecture
 
@@ -80,3 +100,8 @@ Next milestones:
 ## Repository note
 
 Unreal `.uasset` and `.umap` files are stored through **Git LFS**. Generated Unreal folders such as `Binaries`, `Intermediate`, `Saved` and `DerivedDataCache` are intentionally excluded from version control.
+
+
+## My Role
+
+Game design, gameplay prototyping, encounter/stealth-system design, C++ implementation, UI feedback, level-flow iteration, debugging and playtesting.
