@@ -4,6 +4,10 @@
 
 The project is being developed as a complete playable portfolio piece: a compact cathedral/crypt level where exploration, stealth, distraction abilities, enemy awareness and progression are designed to work as one coherent player experience.
 
+## Game Design Breakdown
+
+A focused breakdown of the stealth loop, player choices, design questions and iteration plan is available in [GAME_DESIGN.md](GAME_DESIGN.md).
+
 ## Game Design Goals
 
 - Make enemy awareness easy to read through line-of-sight and detection feedback
